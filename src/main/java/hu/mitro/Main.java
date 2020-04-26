@@ -22,11 +22,12 @@ public class Main {
 		fillQueue(postOffice, moneyTrans);
 		fillQueue(postOffice, prioMoneyTrans);
 		postOffice.showDeliveries();
+
 		postHighestPriorityDelivery(postOffice);
 		postHighestPriorityDelivery(postOffice);
 		postHighestPriorityDelivery(postOffice);
 		postHighestPriorityDelivery(postOffice);
-		postOffice.showDeliveries();
+
 		postOffice.postDeliveryByType(DeliveryType.LETTER);
 		postOffice.showDeliveries();
 
